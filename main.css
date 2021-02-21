@@ -1,0 +1,63 @@
+#bfastCals {
+  width: 85px;
+}
+
+#bfastWeight{
+  width: 75px;
+}
+
+body{
+  background-color: #eff7f6 ;
+}
+h1{
+  color: #f2b5d4 ;
+  text-align: center
+
+}
+
+form{
+  table-layout: fixed;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center
+  }
+table {
+  table-layout: fixed;
+  width: 60%;
+  margin: 0 auto;
+  border: 3px solid #f2b5d4;
+  text-align: center
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+
+html {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+
+th {
+  letter-spacing: 2px;
+}
+

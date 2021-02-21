@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calorie Tracker</title>
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="filter">
+
+  </div>
+  <h1>Calorie Tracker</h1>
+
+  <form action="/cals" id="calorieForm">
+  
+  <label for="bfast">Breakfast Item:</label>
+  <input type="text" id="bfastItem" name="bfastItem">
+
+  <input type="text" id="bfastCals" name="bfastCals" placeholder = "calories per g">
+
+  <input type="text" id="bfastWeight" name="bfastWeight" placeholder = "total g">
+
+  <button> Add to List</button>
+  <br>
+  <br>
+</form>
+
+ <table id="bfastTable">
+
+ <thread>
+  <tr>
+    <th>Breakfast</th>
+    <th>Calories</th>
+    <th>Weight</th>
+    <th>Total Cals</th>
+    <th id ="delete"></th>
+  </tr>
+</thread>
+  
+<tfoot>
+  <td colspan="3">Total Cals</td>
+  <td id="calsSum">0</td>
+</tfoot>
+ </table>
+<span id = "Sum"> </span>
+<br>
+
+
+
+
+  <script src="app.js"> </script>
+</body>
+</html>
