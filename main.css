@@ -1,9 +1,9 @@
 #bfastCals {
-  width: 85px;
+  width: auto;
 }
 
 #bfastWeight{
-  width: 75px;
+  width: auto;
 }
 
 body{
@@ -17,13 +17,13 @@ h1{
 
 form{
   table-layout: fixed;
-  width: 60%;
+  width: auto;
   margin: 0 auto;
   text-align: center
   }
 table {
   table-layout: fixed;
-  width: 60%;
+  width: auto;
   margin: 0 auto;
   border: 3px solid #f2b5d4;
   text-align: center
